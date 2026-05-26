@@ -106,13 +106,14 @@
   <li><strong>Gancho Narrativo:</strong> Você tem deveres para com a Igreja e deve reportar atividades Beyonder suspeitas. Desobedecer tem consequências.</li>
 </ul>
 
-<!-- --- Beyonder Selvagem --- -->
-<h3>Beyonder Selvagem <span class="en">(Wild Beyonder)</span></h3>
+<!-- --- Beyonder Irregular --- -->
+<h3>Beyonder Irregular <span class="en">(Irregular Beyonder)</span></h3>
 <p>
-  Você obteve sua poção fora dos canais oficiais — comprada no mercado negro,
-  roubada, encontrada em ruínas ou recebida de um estranho misterioso. Nenhuma
-  organização reconhece você, e as Igrejas considerariam sua existência
-  problemática. Você está por conta própria.
+  Você obteve sua poção <strong>fora dos canais oficiais</strong> — mercado negro,
+  roubo, achado em ruínas ou dádiva de um estranho. Sem registro nem patrocínio:
+  nenhuma facção legitimamente reconhece seu status, e as Igrejas tendem a ver sua
+  prática como <em>irregular</em> e delicada demais para ignorar. Você está por
+  conta própria.
 </p>
 <ul>
   <li><strong>Bônus de Perícia:</strong> +1 em Furtividade, +1 em Manha</li>
@@ -398,8 +399,8 @@
   </thead>
   <tbody>
     <tr><td>1</td><td>Tolo <span class="en">(Fool)</span></td><td>Vidente <span class="en">(Seer)</span></td></tr>
-    <tr><td>2</td><td>Erro <span class="en">(Error)</span></td><td>Aprendiz <span class="en">(Apprentice)</span></td></tr>
-    <tr><td>3</td><td>Porta <span class="en">(Door)</span></td><td>Vidente <span class="en">(Seer)</span></td></tr>
+    <tr><td>2</td><td>Erro <span class="en">(Error)</span></td><td>Saqueador <span class="en">(Marauder)</span></td></tr>
+    <tr><td>3</td><td>Porta <span class="en">(Door)</span></td><td>Aprendiz <span class="en">(Apprentice)</span></td></tr>
     <tr><td>4</td><td>Visionário <span class="en">(Visionary)</span></td><td>Espectador <span class="en">(Spectator)</span></td></tr>
     <tr><td>5</td><td>Sol <span class="en">(Sun)</span></td><td>Cantor <span class="en">(Bard)</span></td></tr>
     <tr><td>6</td><td>Tirano <span class="en">(Tyrant)</span></td><td>Marinheiro <span class="en">(Sailor)</span></td></tr>
@@ -462,7 +463,11 @@
 <div class="box box-rule">
   <div class="box-title">Fórmula de PV</div>
   <p style="text-align:center; font-size:1.2em;">
-    <strong>PV = 8 + Vigor + Bônus de Sequência</strong>
+    <strong>PV = 8 + Modificador de Vigor + Bônus de Sequência</strong>
+  </p>
+  <p class="box-note" style="font-size:0.95em;">
+    O modificador de atributo é <strong>Valor − 2</strong> (ver Capítulo 3). Esta fórmula vale para
+    <em>todos</em> os Caminhos — apenas o bônus de Sequência muda conforme o avanço.
   </p>
   <table>
     <thead>
@@ -472,13 +477,13 @@
       <tr><td>9</td><td>+0</td></tr>
       <tr><td>8</td><td>+2</td></tr>
       <tr><td>7</td><td>+4</td></tr>
-      <tr><td>6</td><td>+7</td></tr>
-      <tr><td>5</td><td>+10</td></tr>
+      <tr><td>6</td><td>+6</td></tr>
+      <tr><td>5</td><td>+8</td></tr>
     </tbody>
   </table>
   <p>
     Na criação (Sequência 9), o bônus de Sequência é 0. Um personagem com
-    Vigor 3, por exemplo, começa com <strong>8 + 3 = 11 PV</strong>.
+    Vigor 3 (modificador +1), por exemplo, começa com <strong>8 + 1 + 0 = 9 PV</strong>.
   </p>
 </div>
 
@@ -498,19 +503,14 @@
 
 <div class="box box-rule">
   <div class="box-title">Lucidez Inicial</div>
-  <table>
-    <thead>
-      <tr><th>Determinação</th><th>Lucidez Inicial</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>1–2</td><td>7</td></tr>
-      <tr><td>3–5</td><td>8</td></tr>
-    </tbody>
-  </table>
+  <p style="text-align:center; font-size:1.15em;">
+    <strong>Lucidez = 5 + Modificador de Determinação</strong> (valor máximo absoluto: <strong>10</strong>)
+  </p>
   <p>
-    A Lucidez máxima é 10 e pode ser recuperada por descanso, interpretação
-    do Método de Atuação e certas perícias. Detalhes completos no
-    <strong>Capítulo 6 — Lucidez &amp; Sanidade</strong>.
+    Exemplos: Determinação 2 (mod +0) → Lucidez <strong>5</strong>; Determinação 3 (mod +1) → <strong>6</strong>;
+    Determinação 5 (mod +3) → <strong>8</strong>. O teto de 10 reflete firmeza mental excepcional.
+    Recuperação e perda detalhadas no <strong>Livro do Mestre — Loucura &amp; Lucidez</strong> e no
+    <strong>Capítulo 3</strong> (referência de ficha).
   </p>
 </div>
 
@@ -539,7 +539,7 @@
   <li>Dinheiro inicial conforme o Antecedente:
     <ul>
       <li><strong>Membro de Igreja:</strong> 10 libras + voucher eclesiástico</li>
-      <li><strong>Beyonder Selvagem:</strong> 3 libras</li>
+      <li><strong>Beyonder Irregular:</strong> 3 libras</li>
       <li><strong>Aristocrata:</strong> 50 libras + carta de crédito</li>
       <li><strong>Cidadão Comum:</strong> 5 libras</li>
       <li><strong>Marinheiro / Pirata:</strong> 8 libras</li>
@@ -616,7 +616,7 @@
 
   <h4>Passo 5 — Caminho</h4>
   <p>
-    <strong>Caminho do Vidente</strong> <span class="en">(Seer Pathway)</span>.
+    <strong>Caminho do Tolo</strong> <span class="en">(Fool Pathway)</span>,
     Sequência 9 — Vidente <span class="en">(Seer)</span>.
     Edmund obteve sua poção de um cliente misterioso que desapareceu logo
     depois. Desde então, ele percebe coisas que ninguém mais percebe:
@@ -630,12 +630,12 @@
 
   <h4>Passo 6 — Pontos de Vida</h4>
   <p>
-    PV = 8 + Vigor (2) + Bônus de Seq. 9 (0) = <strong>10 PV</strong>.
+    PV = 8 + Mod. Vigor (Vigor 2 → mod +0) + Bônus de Seq. 9 (0) = <strong>8 PV</strong>.
   </p>
 
   <h4>Passo 7 — Lucidez</h4>
   <p>
-    Determinação 2 → Lucidez inicial = <strong>7</strong>.
+    Lucidez = 5 + Mod. Determinação (Determinação 2 → mod +0) = <strong>5</strong>.
   </p>
 
   <h4>Passo 8 — Equipamento</h4>

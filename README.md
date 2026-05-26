@@ -6,6 +6,7 @@ Versão enxuta do RPG para compartilhar com a mesa: **apenas** o que os jogadore
 
 - **Livro do Jogador** (10 capítulos) — regras, Caminhos, Sequências, combate
 - **Ficha de Personagem** — imprimível (A4)
+- **Exemplo — Leitor Seq. 9** — ficha preenchida (Torre Branca) para referência na mesa
 - **Glossário** — PT-BR / EN
 
 ## Site (GitHub Pages)
